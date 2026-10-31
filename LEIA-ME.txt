@@ -1,0 +1,28 @@
+SMARTGASTRO — PROJETO AUTÔNOMO PARA VERCEL
+
+PUBLICAÇÃO
+1. Envie esta pasta para um repositório GitHub e importe o repositório na Vercel.
+2. Framework Preset: Other.
+3. Build Command: deixe vazio.
+4. Output Directory: .
+5. Clique em Deploy.
+
+AUTONOMIA
+- Não utiliza IA, Gemini, API externa, banco de dados ou backend.
+- Os cálculos e gráficos são executados no próprio navegador.
+- Os gráficos são desenhados em Canvas, sem biblioteca externa.
+- O app pode funcionar offline após a primeira abertura, pelo cache PWA.
+
+DADOS E PRIVACIDADE
+- Compras, orçamento, histórico de preços, compras concluídas e modelos ficam no localStorage do navegador.
+- Os dados não são enviados a um servidor e não são sincronizados automaticamente entre dispositivos.
+- Use Dados > Baixar backup para exportar um JSON.
+- Use Dados > Restaurar backup para recuperar o arquivo em outro navegador/dispositivo.
+- Limpar os dados do navegador pode apagar os dados do aplicativo. Mantenha backups.
+
+INDICADORES
+- A economia potencial compara os preços unitários cadastrados para produtos com o mesmo nome em mercados diferentes. É uma estimativa, não uma cotação real.
+- O total por mercado soma os itens atribuídos a cada estabelecimento; compare cestas equivalentes para uma análise justa.
+- O histórico de preços registra o preço ao cadastrar ou editar um produto.
+- O gráfico de evolução é alimentado quando um item é marcado como comprado.
+- O cardápio utiliza sugestões locais predefinidas e não depende de IA.

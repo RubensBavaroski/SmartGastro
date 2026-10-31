@@ -1,0 +1,9 @@
+{
+  "name": "SmartGastro — Compras inteligentes",
+  "short_name": "SmartGastro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0F12",
+  "theme_color": "#0D0F12",
+  "description": "Gestão de compras, orçamento e economia doméstica"
+}
